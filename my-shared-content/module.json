@@ -46,8 +46,8 @@
       }
     ]
   },
-  "url": "https://github.com/Lockbox313/foundry/tree/main/my-shared-content",
-  "manifest": "https://github.com/Lockbox313/foundry/tree/main/my-shared-content/module.json",
-  "download": "https://github.com/Lockbox313/foundry/tree/main/my-shared-content/module.zip",
+  "url": "https://github.com/Lockbox313/foundry/my-shared-content",
+  "manifest": "https://github.com/Lockbox313/foundry/my-shared-content/module.json",
+  "download": "https://github.com/Lockbox313/foundry/my-shared-content/module.zip",
   "manifestPlusVersion": "1.2.0"
 }
