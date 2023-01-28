@@ -1,0 +1,53 @@
+{
+  "id": "my-shared-content",
+  "name": "my-shared-content",
+  "title": "My Shared-Content",
+  "description": "weqweqweqwe",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": "0.8.6",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "author": "me",
+  "authors": [
+    {
+      "name": "me"
+    }
+  ],
+  "packs": [
+    {
+      "name": "items",
+      "label": "My Shared-Content",
+      "path": "/packs/items.db",
+      "entity": "Item",
+      "type": "Item",
+      "system": "coc7"
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "dependencies": [
+    {
+      "name": "scene-packer",
+      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+      "type": "module"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "scene-packer",
+        "type": "module",
+        "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json"
+      }
+    ]
+  },
+  "url": "https://github.com/Lockbox313/foundry/tree/main/my-shared-content",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
+}
